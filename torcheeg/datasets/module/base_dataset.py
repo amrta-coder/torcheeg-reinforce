@@ -212,7 +212,7 @@ class BaseDataset(Dataset):
 
     def read_info(self, index: int) -> Dict:
         r'''
-        Query the corresponding meta information in the MetaInfoIO according to the the given :obj:`index`.
+        Query the corresponding meta information in the MetaInfoIO according to the given :obj:`index`.
 
         In meta infomation, clip_id is required. Specifies the corresponding key of EEG in EEGSginalIO, which can be used to index EEG samples based on :obj:`self.read_eeg(key)`.
 
